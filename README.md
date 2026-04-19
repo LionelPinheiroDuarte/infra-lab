@@ -1,4 +1,4 @@
-# 🚀 Job-listing - DevOps Learning Journey
+# 🚀 infra-lab - DevOps Learning Journey
 
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
@@ -113,8 +113,8 @@ Traditional VM (Week 1)  →  Docker Compose (Week 2-5)  →  Kubernetes (Week 6
 ### Local Development
 ```bash
 # Clone repository
-git clone https://github.com/LionelPinheiroDuarte/job-listing.git
-cd job-listing
+git clone https://github.com/LionelPinheiroDuarte/infra-lab.git
+cd infra-lab
 
 # Start with Docker Compose
 cd deployments
@@ -133,7 +133,7 @@ terraform apply
 
 # Deploy application
 ssh ubuntu@<instance-ip>
-curl -sSL https://raw.githubusercontent.com/LionelPinheiroDuarte/job-listing/dev/scripts/deploy | bash
+curl -sSL https://raw.githubusercontent.com/LionelPinheiroDuarte/infra-lab/dev/scripts/deploy | bash
 
 # Verify
 curl http://<instance-ip>:8000/health
