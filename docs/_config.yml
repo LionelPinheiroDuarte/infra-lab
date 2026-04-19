@@ -1,9 +1,9 @@
-title: "Job Listing — DevOps Pipeline"
+title: "infra-lab — DevOps Pipeline"
 description: "12-week DevOps project documenting a production-grade pipeline"
 remote_theme: just-the-docs/just-the-docs
 
 url: "https://lionelpinheiroduarte.github.io"
-baseurl: "/job-listing"
+baseurl: "/infra-lab"
 
 # Just the Docs configuration
 search_enabled: true
@@ -11,7 +11,7 @@ heading_anchors: true
 
 aux_links:
   "GitHub Repository":
-    - "https://github.com/LionelPinheiroDuarte/job-listing"
+    - "https://github.com/LionelPinheiroDuarte/infra-lab"
 
 nav_sort: case_insensitive
 
@@ -22,4 +22,7 @@ callouts:
   warning:
     color: yellow
 
-footer_content: "Job Listing DevOps Pipeline — Lionel Pinheiro Duarte"
+plugins:
+  - jekyll-include-cache
+
+footer_content: "infra-lab DevOps Pipeline — Lionel Pinheiro Duarte"
