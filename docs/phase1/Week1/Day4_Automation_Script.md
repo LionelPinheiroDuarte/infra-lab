@@ -1,3 +1,10 @@
+---
+title: Day 4 - Deployment Automation Script
+parent: Week 1
+grand_parent: Phase 1
+nav_order: 4
+---
+
 # Day 4 - Deployment Automation Script
 
 ---

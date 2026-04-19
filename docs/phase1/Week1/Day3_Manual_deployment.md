@@ -1,3 +1,10 @@
+---
+title: Day 3 - Manual Application Deployment on VM
+parent: Week 1
+grand_parent: Phase 1
+nav_order: 3
+---
+
 # Day 3 - Manual Application Deployment on VM
 
 ---

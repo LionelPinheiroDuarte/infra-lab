@@ -1,13 +1,18 @@
 title: "Job Listing — DevOps Pipeline"
 description: "12-week DevOps project documenting a production-grade pipeline"
-remote_theme: just-the-docs/just-the-docs
-
+theme: just-the-docs
 url: "https://lionelpinheiroduarte.github.io"
 baseurl: "/job-listing"
 
 # Just the Docs configuration
 search_enabled: true
 heading_anchors: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 aux_links:
   "GitHub Repository":
@@ -21,5 +26,8 @@ callouts:
     color: blue
   warning:
     color: yellow
+
+plugins:
+  - jekyll-include-cache
 
 footer_content: "Job Listing DevOps Pipeline — Lionel Pinheiro Duarte"

@@ -1,3 +1,10 @@
+---
+title: Week 1 Retrospective - VM Deployment Journey
+parent: Week 1
+grand_parent: Phase 1
+nav_order: 5
+---
+
 # Week 1 Retrospective - VM Deployment Journey
 
 ## 🎯 Week Objectives Review

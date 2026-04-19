@@ -88,3 +88,4 @@ terraform.tfstate.backup
 backups/
 *.sql
 *.sql.gz
+vendor/
